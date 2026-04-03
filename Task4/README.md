@@ -88,7 +88,7 @@ Fine-tuning only the last 2 BERT encoder layers gave the best results — matchi
 ## How to Run
 
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/rmisra/news-category-dataset) and place `news.json` in the project directory
-2. Open `Task4_BERT_FineTuning.ipynb` in Google Colab or Jupyter Notebook
+2. Open `FineTuning.ipynb` in Google Colab or Jupyter Notebook
 3. Enable GPU runtime (recommended): Runtime → Change runtime type → T4 GPU
 4. Run all cells top to bottom
 
@@ -97,7 +97,7 @@ Fine-tuning only the last 2 BERT encoder layers gave the best results — matchi
 ## File Structure
 
 ```
-├── Task4_BERT_FineTuning.ipynb   # Main notebook
+├── FineTuning.ipynb               # Main notebook
 ├── news.json                      # Dataset (download from Kaggle)
 └── README.md                      # This file
 ```
@@ -106,4 +106,4 @@ Fine-tuning only the last 2 BERT encoder layers gave the best results — matchi
 
 ## Note
 I understood the pipeline end-to-end up to model building.  
-The experiments section was done with AI assistance — I'm still learning and this project is part of that process.
+I'm still learning and this project is part of that process.
